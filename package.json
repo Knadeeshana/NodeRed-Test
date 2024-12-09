@@ -1,0 +1,12 @@
+{
+    "name": "metrum-genie-node-red-dashboard",
+    "description": "node-red dashboard for metrum genie dashboard",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
