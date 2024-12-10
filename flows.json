@@ -1,1 +1,2105 @@
-[]
+[
+    {
+        "id": "d33edf6540f750cc",
+        "type": "tab",
+        "label": "Dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8933d83034b64aec",
+        "type": "tab",
+        "label": "Database Management",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c988df2909293adc",
+        "type": "tab",
+        "label": "Handle MQTT",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "75b000095e87d4cb",
+        "type": "tab",
+        "label": "Simulations",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ed6b5350db2f3f24",
+        "type": "tab",
+        "label": "Styling",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5d85179eeec0bfaa",
+        "type": "group",
+        "z": "8933d83034b64aec",
+        "name": "GET LOCATION DATA FROM DATABASE",
+        "style": {
+            "stroke": "#ffC000",
+            "label": true
+        },
+        "nodes": [
+            "7388e4543c05f076",
+            "9403a9151764c9c8",
+            "ad7996ab1de73230",
+            "7ace8935ca5d4402",
+            "e1734b0dac06a1e7"
+        ],
+        "x": 164,
+        "y": 139,
+        "w": 1102,
+        "h": 82
+    },
+    {
+        "id": "e90329e3b028bd6d",
+        "type": "group",
+        "z": "8933d83034b64aec",
+        "name": "GET SENSOR DATA FROM DATABASE",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true
+        },
+        "nodes": [
+            "513ba146b8d0b9f7",
+            "f204c5b1df7c8eae",
+            "c0a91ac480f19ba3",
+            "82d63d70cb9b83cd",
+            "e070f9de8a3b0cd1",
+            "f148a47900c26632",
+            "dbc0cb8785542ece"
+        ],
+        "x": 164,
+        "y": 289,
+        "w": 1662,
+        "h": 82
+    },
+    {
+        "id": "650e5a9cb1e4d903",
+        "type": "group",
+        "z": "8933d83034b64aec",
+        "name": "GET PETRIDISH DATA FROM DATABASE",
+        "style": {
+            "label": true,
+            "stroke": "#3f93cf"
+        },
+        "nodes": [
+            "95d26bb39c28aa93",
+            "523abdd757fb45e5",
+            "ea3c050b543ec0b6",
+            "4f26c98c24308709",
+            "5084232bb04a8071",
+            "4f5e5ea6d0902427",
+            "b0e14ae4dd60c7a2"
+        ],
+        "x": 164,
+        "y": 439,
+        "w": 1662,
+        "h": 82
+    },
+    {
+        "id": "27651ac2027fb2b7",
+        "type": "group",
+        "z": "8933d83034b64aec",
+        "name": "GET PATIENT DATA FROM DATABASE",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true
+        },
+        "nodes": [
+            "e92bb3c3b83aa43a",
+            "444dec66f15fbb0b",
+            "5bd8f27c730e4662",
+            "76624b9338ba5e48",
+            "b6a8475a8a246256",
+            "14aa37e6dd356553",
+            "38b019ef4a095bb2"
+        ],
+        "x": 164,
+        "y": 589,
+        "w": 1662,
+        "h": 82
+    },
+    {
+        "id": "ed535cfc796036fa",
+        "type": "group",
+        "z": "8933d83034b64aec",
+        "name": "GET PARTNER DATA FROM DATABASE",
+        "style": {
+            "stroke": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "67871009adead963",
+            "3ceb5e98540dcda9",
+            "717a606ff7ad682e",
+            "dd83157cfa932891",
+            "d66378767d67fa9d"
+        ],
+        "x": 164,
+        "y": 739,
+        "w": 1082,
+        "h": 82
+    },
+    {
+        "id": "8979a4e172e8c41c",
+        "type": "group",
+        "z": "c988df2909293adc",
+        "name": "GET DATA FROM MOBILE APP",
+        "style": {
+            "stroke": "#000000",
+            "label": true
+        },
+        "nodes": [
+            "7314caacaaaa302f",
+            "8f899482910ab19b"
+        ],
+        "x": 134,
+        "y": 779,
+        "w": 392,
+        "h": 82
+    },
+    {
+        "id": "b0d6d77b65a89086",
+        "type": "group",
+        "z": "c988df2909293adc",
+        "name": "GET SENSOR INPUTS",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true
+        },
+        "nodes": [
+            "1ec8827de23217b8",
+            "4faf05ac0bde6f55",
+            "0d0bfd87cca0db26",
+            "336980cedb0120eb",
+            "4ba9f896a81c9f7b",
+            "a990415db3e67267",
+            "569bcbabbf5a119a",
+            "f95b743c0ef9ca2e",
+            "4a5be01644c8de4c",
+            "d5e999f45a1e23f4",
+            "cbb921e4e2e1f907",
+            "29fc4ec985ce9cf4",
+            "804c82b5691f7a69",
+            "9551c9869b9acee3"
+        ],
+        "x": 134,
+        "y": 79,
+        "w": 1732,
+        "h": 202
+    },
+    {
+        "id": "09d03e058d712cc4",
+        "type": "group",
+        "z": "c988df2909293adc",
+        "name": "PUBLISH DATA TO MOBILE APP",
+        "style": {
+            "stroke": "#9363b7",
+            "label": true
+        },
+        "nodes": [
+            "d10c3ff02fe1df5a",
+            "d39f438e3e78bb37",
+            "3696617b713057c5",
+            "7ad9e73209437948",
+            "53018f5dff23c0e4",
+            "1a982c90778ca576",
+            "e475b68aa17121f7",
+            "32b2827dafd2e116",
+            "43b209c0722ffb11",
+            "096e778c8dc129e6",
+            "d25c024a020dc8bd",
+            "a5b41bf8647b8901"
+        ],
+        "x": 134,
+        "y": 339,
+        "w": 432,
+        "h": 382
+    },
+    {
+        "id": "8a76dc35139b9a8d",
+        "type": "group",
+        "z": "75b000095e87d4cb",
+        "name": "SIMULATE SENSOR 2",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true
+        },
+        "nodes": [
+            "1a5d790c64486647",
+            "a3b4762c13326367",
+            "43ab7a4dc4a244cf",
+            "c8ed344f9bf021cd",
+            "ead5482baec31cb6",
+            "845a6a35605c4535",
+            "01a0fa1051bc196b",
+            "dd2bef79675aa1a4",
+            "d3ba0886a179fa7b"
+        ],
+        "x": 214,
+        "y": 199,
+        "w": 932,
+        "h": 202
+    },
+    {
+        "id": "d8e00f1154138f89",
+        "type": "mqtt-broker",
+        "name": "metrum-genie-poc",
+        "broker": "mqtt://broker.emqx.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "af09f12555b160d3",
+        "type": "MySQLdatabase",
+        "name": "metrum_genie_db",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "metrum_genie_db",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "72c0f6797810a72b",
+        "type": "ui_tab",
+        "name": "METRUM GENIE DASHBOARD",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "15499f321bd952cf",
+        "type": "ui_group",
+        "name": "Location Details",
+        "tab": "72c0f6797810a72b",
+        "order": 1,
+        "disp": false,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fb18575290cf595c",
+        "type": "ui_group",
+        "name": "Sensor Details",
+        "tab": "72c0f6797810a72b",
+        "order": 2,
+        "disp": false,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "98fd8c738bd0da99",
+        "type": "ui_group",
+        "name": "Petridish Details",
+        "tab": "72c0f6797810a72b",
+        "order": 3,
+        "disp": false,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2106728355857a22",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Metrum Genie Dashboard",
+                "default": "#4B7930",
+                "baseColor": "#375583",
+                "baseFont": "Trebuchet MS,Helvetica,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#375583",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#375583",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#5179b6",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#dedede",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#375583",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "Trebuchet MS,Helvetica,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "METRUM GENIE DASHBOARD",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "bd5ba9986fd7cfc3",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "15499f321bd952cf",
+        "order": 1,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "fd309eb19363db35",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "15499f321bd952cf",
+        "order": 2,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "94c068ce97488a3a",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "fb18575290cf595c",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "db28a94918dcca3d",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "fb18575290cf595c",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c49c056a4e84b49c",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "group": "fb18575290cf595c",
+        "order": 2,
+        "width": 8,
+        "height": 2,
+        "name": "",
+        "label": "Sensor Name",
+        "format": "{{msg.payload.type}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "24",
+        "color": "#000000",
+        "x": 800,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "766f5a684f1cdb58",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "group": "fb18575290cf595c",
+        "order": 3,
+        "width": 8,
+        "height": 2,
+        "name": "",
+        "label": "Temperature Reading",
+        "format": "{{msg.payload}} °C",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
+        "fontSize": "24",
+        "color": "#000000",
+        "x": 820,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "94e3a82d434ae253",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "group": "98fd8c738bd0da99",
+        "order": 1,
+        "width": 8,
+        "height": 2,
+        "name": "",
+        "label": "Petri Dish Data",
+        "format": "",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
+        "fontSize": "32",
+        "color": "#375583",
+        "x": 800,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "31a176946ffebc54",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "group": "fb18575290cf595c",
+        "order": 1,
+        "width": 8,
+        "height": 2,
+        "name": "",
+        "label": "Sensor Data",
+        "format": "",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
+        "fontSize": "32",
+        "color": "#375583",
+        "x": 790,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "e63346a35b3cc70d",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "group": "98fd8c738bd0da99",
+        "order": 2,
+        "width": 8,
+        "height": 2,
+        "name": "",
+        "label": "Patient Name",
+        "format": "{{msg.payload.name}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 800,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "1a0747399fbc4303",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "group": "98fd8c738bd0da99",
+        "order": 4,
+        "width": 8,
+        "height": 2,
+        "name": "",
+        "label": "Age",
+        "format": "{{msg.payload.age}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 770,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "b4e7938dbe26f722",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "group": "98fd8c738bd0da99",
+        "order": 3,
+        "width": 8,
+        "height": 2,
+        "name": "",
+        "label": "Gender",
+        "format": "{{msg.payload.gender}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "1e24da18806efdd2",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "group": "98fd8c738bd0da99",
+        "order": 5,
+        "width": 8,
+        "height": 2,
+        "name": "",
+        "label": "Partner Name",
+        "format": "{{msg.payload.name}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 800,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "ef9f4d2c98999e38",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "group": "15499f321bd952cf",
+        "order": 3,
+        "width": 8,
+        "height": 6,
+        "name": "",
+        "label": "Location Name",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
+        "fontSize": "32",
+        "color": "#375583",
+        "x": 800,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "a68648dd0141c0b6",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "name": "Location Name Input",
+        "links": [
+            "7ace8935ca5d4402"
+        ],
+        "x": 445,
+        "y": 120,
+        "wires": [
+            [
+                "ef9f4d2c98999e38"
+            ]
+        ]
+    },
+    {
+        "id": "53ab7cbd070e00c4",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "name": "Sensor Data Input",
+        "links": [
+            "dbc0cb8785542ece"
+        ],
+        "x": 445,
+        "y": 280,
+        "wires": [
+            [
+                "c49c056a4e84b49c"
+            ]
+        ]
+    },
+    {
+        "id": "1a8209c2c8ef7af8",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "name": "Temperature Reading Input",
+        "links": [
+            "336980cedb0120eb"
+        ],
+        "x": 445,
+        "y": 360,
+        "wires": [
+            [
+                "766f5a684f1cdb58"
+            ]
+        ]
+    },
+    {
+        "id": "2cbc8b8d5c0c6ca1",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "name": "Battery Level Input",
+        "links": [
+            "cbb921e4e2e1f907"
+        ],
+        "x": 445,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cc8446a63317960d",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "name": "Error Status Input",
+        "links": [
+            "4a5be01644c8de4c"
+        ],
+        "x": 445,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e5054781d785d746",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "name": "Patient Data Input",
+        "links": [
+            "14aa37e6dd356553"
+        ],
+        "x": 445,
+        "y": 720,
+        "wires": [
+            [
+                "e63346a35b3cc70d"
+            ]
+        ]
+    },
+    {
+        "id": "89a80403b83f591e",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "name": "Patient Data Input",
+        "links": [
+            "14aa37e6dd356553"
+        ],
+        "x": 445,
+        "y": 800,
+        "wires": [
+            [
+                "b4e7938dbe26f722"
+            ]
+        ]
+    },
+    {
+        "id": "554f12eff4fee39c",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "name": "Patient Data Input",
+        "links": [
+            "14aa37e6dd356553"
+        ],
+        "x": 445,
+        "y": 880,
+        "wires": [
+            [
+                "1a0747399fbc4303"
+            ]
+        ]
+    },
+    {
+        "id": "3ff420a1e2b68f23",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "name": "Partner Data Input",
+        "links": [
+            "dd83157cfa932891"
+        ],
+        "x": 445,
+        "y": 960,
+        "wires": [
+            [
+                "1e24da18806efdd2"
+            ]
+        ]
+    },
+    {
+        "id": "513ba146b8d0b9f7",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "e90329e3b028bd6d",
+        "name": "Create SQL query for sensor Id extraction",
+        "func": "let locationId = msg.payload[1];\n\n// Get sensor Id for the location from the database\nmsg.topic = \"SELECT sensors FROM locationdata WHERE id = \" + locationId;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 330,
+        "wires": [
+            [
+                "f204c5b1df7c8eae"
+            ]
+        ]
+    },
+    {
+        "id": "f204c5b1df7c8eae",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "e90329e3b028bd6d",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 800,
+        "y": 330,
+        "wires": [
+            [
+                "c0a91ac480f19ba3"
+            ]
+        ]
+    },
+    {
+        "id": "c0a91ac480f19ba3",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "e90329e3b028bd6d",
+        "name": "Create SQL query for sensor data extraction",
+        "func": "// Get sensor id for the location from the database\nconst sensorIdString = msg.payload[0].sensors; //Access the 'sensors' string\nconst sensorsObj = JSON.parse(sensorIdString); // Parse the JSON string into an object\nconst sensorId = sensorsObj.id[0] // Access the first id in the 'id' array\n\n// Create query\nmsg.topic = \"SELECT * FROM sensordata WHERE id = \" + sensorId;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 330,
+        "wires": [
+            [
+                "e070f9de8a3b0cd1"
+            ]
+        ]
+    },
+    {
+        "id": "7388e4543c05f076",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "5d85179eeec0bfaa",
+        "name": "Create SQL query for location data extraction",
+        "func": "let locationId = msg.payload[1];\n\n// Get sensor details for the location from the database\nmsg.topic = \"SELECT name FROM locationdata WHERE id = \" + locationId;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 180,
+        "wires": [
+            [
+                "9403a9151764c9c8"
+            ]
+        ]
+    },
+    {
+        "id": "9403a9151764c9c8",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "5d85179eeec0bfaa",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 800,
+        "y": 180,
+        "wires": [
+            [
+                "ad7996ab1de73230"
+            ]
+        ]
+    },
+    {
+        "id": "ad7996ab1de73230",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "5d85179eeec0bfaa",
+        "name": "Extract location name",
+        "func": "// Get location name for the location from the database\nconst locationNameString = msg.payload[0].name; //Access the 'name' string\n\nmsg.payload = locationNameString;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 180,
+        "wires": [
+            [
+                "7ace8935ca5d4402"
+            ]
+        ]
+    },
+    {
+        "id": "7ace8935ca5d4402",
+        "type": "link out",
+        "z": "8933d83034b64aec",
+        "g": "5d85179eeec0bfaa",
+        "name": "Location Name Output",
+        "mode": "link",
+        "links": [
+            "a68648dd0141c0b6",
+            "a5b41bf8647b8901"
+        ],
+        "x": 1225,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "82d63d70cb9b83cd",
+        "type": "link in",
+        "z": "8933d83034b64aec",
+        "g": "e90329e3b028bd6d",
+        "name": "QR Code Scanner Input",
+        "links": [
+            "8f899482910ab19b"
+        ],
+        "x": 205,
+        "y": 330,
+        "wires": [
+            [
+                "513ba146b8d0b9f7"
+            ]
+        ]
+    },
+    {
+        "id": "e1734b0dac06a1e7",
+        "type": "link in",
+        "z": "8933d83034b64aec",
+        "g": "5d85179eeec0bfaa",
+        "name": "QR Code Scanner Input",
+        "links": [
+            "8f899482910ab19b"
+        ],
+        "x": 205,
+        "y": 180,
+        "wires": [
+            [
+                "7388e4543c05f076"
+            ]
+        ]
+    },
+    {
+        "id": "e070f9de8a3b0cd1",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "e90329e3b028bd6d",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 1400,
+        "y": 330,
+        "wires": [
+            [
+                "f148a47900c26632"
+            ]
+        ]
+    },
+    {
+        "id": "f148a47900c26632",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "e90329e3b028bd6d",
+        "name": "Extract sensor data",
+        "func": "// Extract sensor data\nmsg.payload = msg.payload[0]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1610,
+        "y": 330,
+        "wires": [
+            [
+                "dbc0cb8785542ece"
+            ]
+        ]
+    },
+    {
+        "id": "dbc0cb8785542ece",
+        "type": "link out",
+        "z": "8933d83034b64aec",
+        "g": "e90329e3b028bd6d",
+        "name": "Sensor Data Output",
+        "mode": "link",
+        "links": [
+            "1ec8827de23217b8",
+            "53ab7cbd070e00c4"
+        ],
+        "x": 1785,
+        "y": 330,
+        "wires": []
+    },
+    {
+        "id": "95d26bb39c28aa93",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "650e5a9cb1e4d903",
+        "name": "Create SQL query for petridish Id extraction",
+        "func": "let locationId = msg.payload[1];\n\n// Get petridish Id for the location from the database\nmsg.topic = \"SELECT petriDishes FROM locationdata WHERE id = \" + locationId;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 480,
+        "wires": [
+            [
+                "523abdd757fb45e5"
+            ]
+        ]
+    },
+    {
+        "id": "523abdd757fb45e5",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "650e5a9cb1e4d903",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 800,
+        "y": 480,
+        "wires": [
+            [
+                "ea3c050b543ec0b6"
+            ]
+        ]
+    },
+    {
+        "id": "ea3c050b543ec0b6",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "650e5a9cb1e4d903",
+        "name": "Create SQL query for petridish data extraction",
+        "func": "// Get petridish id for the location from the database\nconst petridishIdString = msg.payload[0].petriDishes; //Access the 'petriDishes' string\nconst petridishObj = JSON.parse(petridishIdString); // Parse the JSON string into an object\nconst petridishId = petridishObj.id[0] // Access the first id in the 'id' array\n\n// Create query\nmsg.topic = \"SELECT * FROM petridishdata WHERE id = \" + petridishId;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 480,
+        "wires": [
+            [
+                "5084232bb04a8071"
+            ]
+        ]
+    },
+    {
+        "id": "4f26c98c24308709",
+        "type": "link in",
+        "z": "8933d83034b64aec",
+        "g": "650e5a9cb1e4d903",
+        "name": "QR Code Scanner Input",
+        "links": [
+            "8f899482910ab19b"
+        ],
+        "x": 205,
+        "y": 480,
+        "wires": [
+            [
+                "95d26bb39c28aa93"
+            ]
+        ]
+    },
+    {
+        "id": "5084232bb04a8071",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "650e5a9cb1e4d903",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 1400,
+        "y": 480,
+        "wires": [
+            [
+                "4f5e5ea6d0902427"
+            ]
+        ]
+    },
+    {
+        "id": "4f5e5ea6d0902427",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "650e5a9cb1e4d903",
+        "name": "Extract petridish data",
+        "func": "// Extract petridish Id\nmsg.payload = msg.payload[0]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1620,
+        "y": 480,
+        "wires": [
+            [
+                "b0e14ae4dd60c7a2"
+            ]
+        ]
+    },
+    {
+        "id": "b0e14ae4dd60c7a2",
+        "type": "link out",
+        "z": "8933d83034b64aec",
+        "g": "650e5a9cb1e4d903",
+        "name": "Petridish Data Output",
+        "mode": "link",
+        "links": [
+            "76624b9338ba5e48"
+        ],
+        "x": 1785,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "e92bb3c3b83aa43a",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "27651ac2027fb2b7",
+        "name": "Create SQL query for patient Id extraction",
+        "func": "let petridishId = msg.payload.id;\n\n// Get patient Id for the location from the database\nmsg.topic = \"SELECT patientId FROM petridishdata WHERE id = \" + petridishId;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 630,
+        "wires": [
+            [
+                "444dec66f15fbb0b"
+            ]
+        ]
+    },
+    {
+        "id": "444dec66f15fbb0b",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "27651ac2027fb2b7",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 800,
+        "y": 630,
+        "wires": [
+            [
+                "5bd8f27c730e4662"
+            ]
+        ]
+    },
+    {
+        "id": "5bd8f27c730e4662",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "27651ac2027fb2b7",
+        "name": "Create SQL query for patient data extraction",
+        "func": "// Get patient id for the location from the database\nconst patientId = msg.payload[0].patientId; //Access the 'patientId' string\n\n// Create query\nmsg.topic = \"SELECT * FROM patientdata WHERE id = \" + patientId;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 630,
+        "wires": [
+            [
+                "b6a8475a8a246256"
+            ]
+        ]
+    },
+    {
+        "id": "76624b9338ba5e48",
+        "type": "link in",
+        "z": "8933d83034b64aec",
+        "g": "27651ac2027fb2b7",
+        "name": "Petridish Data Input",
+        "links": [
+            "b0e14ae4dd60c7a2"
+        ],
+        "x": 205,
+        "y": 630,
+        "wires": [
+            [
+                "e92bb3c3b83aa43a"
+            ]
+        ]
+    },
+    {
+        "id": "b6a8475a8a246256",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "27651ac2027fb2b7",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 1400,
+        "y": 630,
+        "wires": [
+            [
+                "38b019ef4a095bb2"
+            ]
+        ]
+    },
+    {
+        "id": "14aa37e6dd356553",
+        "type": "link out",
+        "z": "8933d83034b64aec",
+        "g": "27651ac2027fb2b7",
+        "name": "Patient Data Output",
+        "mode": "link",
+        "links": [
+            "717a606ff7ad682e",
+            "32b2827dafd2e116",
+            "e5054781d785d746",
+            "89a80403b83f591e",
+            "554f12eff4fee39c"
+        ],
+        "x": 1785,
+        "y": 630,
+        "wires": []
+    },
+    {
+        "id": "38b019ef4a095bb2",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "27651ac2027fb2b7",
+        "name": "Extract patient data",
+        "func": "// Extract patient data\nmsg.payload = msg.payload[0]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1610,
+        "y": 630,
+        "wires": [
+            [
+                "14aa37e6dd356553"
+            ]
+        ]
+    },
+    {
+        "id": "67871009adead963",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "ed535cfc796036fa",
+        "name": "Create SQL query for partner data extraction",
+        "func": "let partnerId = msg.payload.partnerId;\n\n// Get patient data for the partner Id\nmsg.topic = \"SELECT * FROM patientdata WHERE id = \" + partnerId;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 780,
+        "wires": [
+            [
+                "3ceb5e98540dcda9"
+            ]
+        ]
+    },
+    {
+        "id": "3ceb5e98540dcda9",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "ed535cfc796036fa",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 800,
+        "y": 780,
+        "wires": [
+            [
+                "d66378767d67fa9d"
+            ]
+        ]
+    },
+    {
+        "id": "717a606ff7ad682e",
+        "type": "link in",
+        "z": "8933d83034b64aec",
+        "g": "ed535cfc796036fa",
+        "name": "Patient Data Input",
+        "links": [
+            "14aa37e6dd356553"
+        ],
+        "x": 205,
+        "y": 780,
+        "wires": [
+            [
+                "67871009adead963"
+            ]
+        ]
+    },
+    {
+        "id": "dd83157cfa932891",
+        "type": "link out",
+        "z": "8933d83034b64aec",
+        "g": "ed535cfc796036fa",
+        "name": "Partner Data Output",
+        "mode": "link",
+        "links": [
+            "096e778c8dc129e6",
+            "3ff420a1e2b68f23"
+        ],
+        "x": 1205,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "d66378767d67fa9d",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "ed535cfc796036fa",
+        "name": "Extract partner data",
+        "func": "// Extract partner data\nmsg.payload = msg.payload[0]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 780,
+        "wires": [
+            [
+                "dd83157cfa932891"
+            ]
+        ]
+    },
+    {
+        "id": "7314caacaaaa302f",
+        "type": "mqtt in",
+        "z": "c988df2909293adc",
+        "g": "8979a4e172e8c41c",
+        "name": "QR Code Scanner",
+        "topic": "VL/MG/M/QR",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "d8e00f1154138f89",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 820,
+        "wires": [
+            [
+                "8f899482910ab19b"
+            ]
+        ]
+    },
+    {
+        "id": "8f899482910ab19b",
+        "type": "link out",
+        "z": "c988df2909293adc",
+        "g": "8979a4e172e8c41c",
+        "name": "QR Code Scanner Output",
+        "mode": "link",
+        "links": [
+            "4f26c98c24308709",
+            "82d63d70cb9b83cd",
+            "e1734b0dac06a1e7"
+        ],
+        "x": 485,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "1ec8827de23217b8",
+        "type": "link in",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Sensor Data Input",
+        "links": [
+            "dbc0cb8785542ece"
+        ],
+        "x": 175,
+        "y": 180,
+        "wires": [
+            [
+                "4faf05ac0bde6f55",
+                "804c82b5691f7a69"
+            ]
+        ]
+    },
+    {
+        "id": "4faf05ac0bde6f55",
+        "type": "function",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Unsubscribe previous sensor",
+        "func": "let previousSensorId = global.get(\"previousSensorId\");\n\n// Unsubscribe if there is a previously saved sensor id\nif (previousSensorId){\n    msg.payload = String(\"VL/MG/\") + String(\"S\") + global.get(\"previousSensorId\") + String(\"/\");\n    msg.action = \"unsubscribe\";\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 220,
+        "wires": [
+            [
+                "4ba9f896a81c9f7b",
+                "a990415db3e67267",
+                "569bcbabbf5a119a"
+            ]
+        ]
+    },
+    {
+        "id": "0d0bfd87cca0db26",
+        "type": "mqtt in",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Temperature reading",
+        "topic": "",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d8e00f1154138f89",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 1,
+        "x": 1310,
+        "y": 120,
+        "wires": [
+            [
+                "9551c9869b9acee3"
+            ]
+        ]
+    },
+    {
+        "id": "336980cedb0120eb",
+        "type": "link out",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Temperature Reading Output",
+        "mode": "link",
+        "links": [
+            "d39f438e3e78bb37",
+            "1a8209c2c8ef7af8"
+        ],
+        "x": 1825,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4ba9f896a81c9f7b",
+        "type": "function",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Create topic for temperature reading",
+        "func": "msg.topic = msg.payload + String(\"TR\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 120,
+        "wires": [
+            [
+                "0d0bfd87cca0db26"
+            ]
+        ]
+    },
+    {
+        "id": "a990415db3e67267",
+        "type": "function",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Create topic for error status",
+        "func": "msg.topic = msg.payload + String(\"ES\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 180,
+        "wires": [
+            [
+                "f95b743c0ef9ca2e"
+            ]
+        ]
+    },
+    {
+        "id": "569bcbabbf5a119a",
+        "type": "function",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Create topic for battery level",
+        "func": "msg.topic = msg.payload + String(\"BL\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 240,
+        "wires": [
+            [
+                "d5e999f45a1e23f4"
+            ]
+        ]
+    },
+    {
+        "id": "f95b743c0ef9ca2e",
+        "type": "mqtt in",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Error status",
+        "topic": "",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d8e00f1154138f89",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 1,
+        "x": 1290,
+        "y": 180,
+        "wires": [
+            [
+                "4a5be01644c8de4c"
+            ]
+        ]
+    },
+    {
+        "id": "4a5be01644c8de4c",
+        "type": "link out",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Error Status Output",
+        "mode": "link",
+        "links": [
+            "7ad9e73209437948",
+            "cc8446a63317960d"
+        ],
+        "x": 1825,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "d5e999f45a1e23f4",
+        "type": "mqtt in",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Battery level",
+        "topic": "",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d8e00f1154138f89",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 1,
+        "x": 1290,
+        "y": 240,
+        "wires": [
+            [
+                "cbb921e4e2e1f907"
+            ]
+        ]
+    },
+    {
+        "id": "cbb921e4e2e1f907",
+        "type": "link out",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Battery Level Output",
+        "mode": "link",
+        "links": [
+            "1a982c90778ca576",
+            "2cbc8b8d5c0c6ca1"
+        ],
+        "x": 1825,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "d10c3ff02fe1df5a",
+        "type": "mqtt out",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Temperature reading for App",
+        "topic": "VL/MG/M/TR",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8e00f1154138f89",
+        "x": 420,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "d39f438e3e78bb37",
+        "type": "link in",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Temperature Reading Input",
+        "links": [
+            "336980cedb0120eb"
+        ],
+        "x": 175,
+        "y": 560,
+        "wires": [
+            [
+                "d10c3ff02fe1df5a"
+            ]
+        ]
+    },
+    {
+        "id": "3696617b713057c5",
+        "type": "mqtt out",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Error status for App",
+        "topic": "VL/MG/M/ES",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8e00f1154138f89",
+        "x": 390,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "7ad9e73209437948",
+        "type": "link in",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Error Status Input",
+        "links": [
+            "4a5be01644c8de4c"
+        ],
+        "x": 175,
+        "y": 620,
+        "wires": [
+            [
+                "3696617b713057c5"
+            ]
+        ]
+    },
+    {
+        "id": "53018f5dff23c0e4",
+        "type": "mqtt out",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Battery level for App",
+        "topic": "VL/MG/M/BL",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8e00f1154138f89",
+        "x": 400,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "1a982c90778ca576",
+        "type": "link in",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Battery Level Input",
+        "links": [
+            "cbb921e4e2e1f907"
+        ],
+        "x": 175,
+        "y": 680,
+        "wires": [
+            [
+                "53018f5dff23c0e4"
+            ]
+        ]
+    },
+    {
+        "id": "e475b68aa17121f7",
+        "type": "mqtt out",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Patient data for App",
+        "topic": "VL/MG/M/PTD",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8e00f1154138f89",
+        "x": 390,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "32b2827dafd2e116",
+        "type": "link in",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Patient Data Input",
+        "links": [
+            "14aa37e6dd356553"
+        ],
+        "x": 175,
+        "y": 440,
+        "wires": [
+            [
+                "e475b68aa17121f7"
+            ]
+        ]
+    },
+    {
+        "id": "43b209c0722ffb11",
+        "type": "mqtt out",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Partner data for App",
+        "topic": "VL/MG/M/PRD",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8e00f1154138f89",
+        "x": 400,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "096e778c8dc129e6",
+        "type": "link in",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Patner Data Input",
+        "links": [
+            "dd83157cfa932891"
+        ],
+        "x": 175,
+        "y": 500,
+        "wires": [
+            [
+                "43b209c0722ffb11"
+            ]
+        ]
+    },
+    {
+        "id": "29fc4ec985ce9cf4",
+        "type": "function",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Subscribe new sensor",
+        "func": "// Set the global variable to be used during unsubscription\nglobal.set(\"previousSensorId\", msg.payload.id);\n\nmsg.payload = String(\"VL/MG/\") + String(\"S\") + msg.payload.id + String(\"/\");\nmsg.action = \"subscribe\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 140,
+        "wires": [
+            [
+                "4ba9f896a81c9f7b",
+                "a990415db3e67267",
+                "569bcbabbf5a119a"
+            ]
+        ]
+    },
+    {
+        "id": "804c82b5691f7a69",
+        "type": "delay",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Delay 100 ms",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 140,
+        "wires": [
+            [
+                "29fc4ec985ce9cf4"
+            ]
+        ]
+    },
+    {
+        "id": "9551c9869b9acee3",
+        "type": "function",
+        "z": "c988df2909293adc",
+        "g": "b0d6d77b65a89086",
+        "name": "Set temperature reading to 2 decimal places",
+        "func": "msg.payload = (parseFloat(msg.payload)).toFixed(2);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1610,
+        "y": 120,
+        "wires": [
+            [
+                "336980cedb0120eb"
+            ]
+        ]
+    },
+    {
+        "id": "d25c024a020dc8bd",
+        "type": "mqtt out",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Location name for App",
+        "topic": "VL/MG/M/L",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8e00f1154138f89",
+        "x": 400,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "a5b41bf8647b8901",
+        "type": "link in",
+        "z": "c988df2909293adc",
+        "g": "09d03e058d712cc4",
+        "name": "Location Name Input",
+        "links": [
+            "7ace8935ca5d4402"
+        ],
+        "x": 175,
+        "y": 380,
+        "wires": [
+            [
+                "d25c024a020dc8bd"
+            ]
+        ]
+    },
+    {
+        "id": "1a5d790c64486647",
+        "type": "mqtt in",
+        "z": "75b000095e87d4cb",
+        "g": "8a76dc35139b9a8d",
+        "name": "Temperature reading from S1",
+        "topic": "VL/MG/S1/TR",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d8e00f1154138f89",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 360,
+        "y": 240,
+        "wires": [
+            [
+                "c8ed344f9bf021cd"
+            ]
+        ]
+    },
+    {
+        "id": "a3b4762c13326367",
+        "type": "mqtt in",
+        "z": "75b000095e87d4cb",
+        "g": "8a76dc35139b9a8d",
+        "name": "Error status from S1",
+        "topic": "VL/MG/S1/ES",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d8e00f1154138f89",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 330,
+        "y": 300,
+        "wires": [
+            [
+                "ead5482baec31cb6"
+            ]
+        ]
+    },
+    {
+        "id": "43ab7a4dc4a244cf",
+        "type": "mqtt in",
+        "z": "75b000095e87d4cb",
+        "g": "8a76dc35139b9a8d",
+        "name": "Battery level from S1",
+        "topic": "VL/MG/S1/BL",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d8e00f1154138f89",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 330,
+        "y": 360,
+        "wires": [
+            [
+                "845a6a35605c4535"
+            ]
+        ]
+    },
+    {
+        "id": "c8ed344f9bf021cd",
+        "type": "function",
+        "z": "75b000095e87d4cb",
+        "g": "8a76dc35139b9a8d",
+        "name": "Change temperature reading",
+        "func": "msg.payload = (parseFloat(msg.payload) - 100).toFixed(2);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 240,
+        "wires": [
+            [
+                "01a0fa1051bc196b"
+            ]
+        ]
+    },
+    {
+        "id": "ead5482baec31cb6",
+        "type": "function",
+        "z": "75b000095e87d4cb",
+        "g": "8a76dc35139b9a8d",
+        "name": "Set the error status",
+        "func": "return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 300,
+        "wires": [
+            [
+                "dd2bef79675aa1a4"
+            ]
+        ]
+    },
+    {
+        "id": "845a6a35605c4535",
+        "type": "function",
+        "z": "75b000095e87d4cb",
+        "g": "8a76dc35139b9a8d",
+        "name": "Change battery level",
+        "func": "msg.payload = String(parseInt(msg.payload,10) - 20);\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 360,
+        "wires": [
+            [
+                "d3ba0886a179fa7b"
+            ]
+        ]
+    },
+    {
+        "id": "01a0fa1051bc196b",
+        "type": "mqtt out",
+        "z": "75b000095e87d4cb",
+        "g": "8a76dc35139b9a8d",
+        "name": "Temperature reading for S2",
+        "topic": "VL/MG/S2/TR",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8e00f1154138f89",
+        "x": 1000,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "dd2bef79675aa1a4",
+        "type": "mqtt out",
+        "z": "75b000095e87d4cb",
+        "g": "8a76dc35139b9a8d",
+        "name": "Error status for S2",
+        "topic": "VL/MG/S2/ES",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8e00f1154138f89",
+        "x": 970,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d3ba0886a179fa7b",
+        "type": "mqtt out",
+        "z": "75b000095e87d4cb",
+        "g": "8a76dc35139b9a8d",
+        "name": "Battery level for S2",
+        "topic": "VL/MG/S2/BL",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8e00f1154138f89",
+        "x": 970,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7ee165f22723200f",
+        "type": "ui_template",
+        "z": "ed6b5350db2f3f24",
+        "group": "",
+        "name": "Dashboard Style",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    ui-card-panel {\n        border-radius: 20px;\n        height: 600px;\n        margin: 20px;\n        font: \"Trebuchet-Ms\";\n        font-size: 18px;\n    }\n    \n    ui-card-panel * {\n        border-radius: 2.5px;\n        margin: 3px;\n    }\n    \n    .nr-dashboard-cardtitle{\n        font-weight:bold; !important\n    }\n    \n\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 270,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    }
+]
