@@ -18,7 +18,7 @@
     {
         "id": "c988df2909293adc",
         "type": "tab",
-        "label": "Handle MQTT",
+        "label": "Handle MQTT for Mobile App",
         "disabled": false,
         "info": "",
         "env": []
@@ -35,6 +35,14 @@
         "id": "ed6b5350db2f3f24",
         "type": "tab",
         "label": "Styling",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c60ec673a66ab45f",
+        "type": "tab",
+        "label": "Other Backend Operations",
         "disabled": false,
         "info": "",
         "env": []
@@ -70,8 +78,6 @@
             "label": true
         },
         "nodes": [
-            "513ba146b8d0b9f7",
-            "f204c5b1df7c8eae",
             "c0a91ac480f19ba3",
             "82d63d70cb9b83cd",
             "e070f9de8a3b0cd1",
@@ -79,8 +85,8 @@
             "dbc0cb8785542ece"
         ],
         "x": 164,
-        "y": 289,
-        "w": 1662,
+        "y": 279,
+        "w": 1042,
         "h": 82
     },
     {
@@ -93,8 +99,6 @@
             "stroke": "#3f93cf"
         },
         "nodes": [
-            "95d26bb39c28aa93",
-            "523abdd757fb45e5",
             "ea3c050b543ec0b6",
             "4f26c98c24308709",
             "5084232bb04a8071",
@@ -102,8 +106,8 @@
             "b0e14ae4dd60c7a2"
         ],
         "x": 164,
-        "y": 439,
-        "w": 1662,
+        "y": 419,
+        "w": 1042,
         "h": 82
     },
     {
@@ -151,24 +155,6 @@
         "h": 82
     },
     {
-        "id": "8979a4e172e8c41c",
-        "type": "group",
-        "z": "c988df2909293adc",
-        "name": "GET DATA FROM MOBILE APP",
-        "style": {
-            "stroke": "#000000",
-            "label": true
-        },
-        "nodes": [
-            "7314caacaaaa302f",
-            "8f899482910ab19b"
-        ],
-        "x": 134,
-        "y": 779,
-        "w": 392,
-        "h": 82
-    },
-    {
         "id": "b0d6d77b65a89086",
         "type": "group",
         "z": "c988df2909293adc",
@@ -199,34 +185,6 @@
         "h": 202
     },
     {
-        "id": "09d03e058d712cc4",
-        "type": "group",
-        "z": "c988df2909293adc",
-        "name": "PUBLISH DATA TO MOBILE APP",
-        "style": {
-            "stroke": "#9363b7",
-            "label": true
-        },
-        "nodes": [
-            "d10c3ff02fe1df5a",
-            "d39f438e3e78bb37",
-            "3696617b713057c5",
-            "7ad9e73209437948",
-            "53018f5dff23c0e4",
-            "1a982c90778ca576",
-            "e475b68aa17121f7",
-            "32b2827dafd2e116",
-            "43b209c0722ffb11",
-            "096e778c8dc129e6",
-            "d25c024a020dc8bd",
-            "a5b41bf8647b8901"
-        ],
-        "x": 134,
-        "y": 339,
-        "w": 432,
-        "h": 382
-    },
-    {
         "id": "8a76dc35139b9a8d",
         "type": "group",
         "z": "75b000095e87d4cb",
@@ -250,6 +208,203 @@
         "y": 199,
         "w": 932,
         "h": 202
+    },
+    {
+        "id": "2f64157acb78fc9c",
+        "type": "group",
+        "z": "8933d83034b64aec",
+        "name": "GET PETRIDISH DATA FROM DATABASE - QR",
+        "style": {
+            "label": true,
+            "stroke": "#3f93cf"
+        },
+        "nodes": [
+            "98a36e495968112a",
+            "f3b4177b2dc7502d",
+            "34ffdf8ddc2e7b75",
+            "a5606b5c016020b1",
+            "15b1182d3196d59d"
+        ],
+        "x": 164,
+        "y": 979,
+        "w": 1042,
+        "h": 82
+    },
+    {
+        "id": "3ffce412cec7d6d1",
+        "type": "group",
+        "z": "8933d83034b64aec",
+        "name": "GET PATIENT DATA FROM DATABASE - QR",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true
+        },
+        "nodes": [
+            "92c7eb735b8a48e5",
+            "bd2ce22e979079d2",
+            "0b90e8a54e051062",
+            "4b3c8d77db1d48e0",
+            "f95cf8e0d77d1a18",
+            "d284aaaf2dd4b47d",
+            "375475186b466602"
+        ],
+        "x": 164,
+        "y": 1129,
+        "w": 1662,
+        "h": 82
+    },
+    {
+        "id": "f479363812cac5ed",
+        "type": "group",
+        "z": "8933d83034b64aec",
+        "name": "GET PARTNER DATA FROM DATABASE - QR",
+        "style": {
+            "stroke": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "174289c2ed0d1258",
+            "851fe91e14f3661e",
+            "41d23a351fda5dab",
+            "61c3c57f6702f8b5",
+            "6905db56f5bc0d59"
+        ],
+        "x": 164,
+        "y": 1279,
+        "w": 1082,
+        "h": 82
+    },
+    {
+        "id": "b7ed986902f36d73",
+        "type": "group",
+        "z": "8933d83034b64aec",
+        "name": "GET LOCATION DATA FROM DATABASE - QR",
+        "style": {
+            "stroke": "#ffff00",
+            "label": true
+        },
+        "nodes": [
+            "b599fbea18270d07",
+            "1965a52fe0b0b09a",
+            "25aee7c0f74b773f",
+            "5b78ad79a1a654fe",
+            "e5ea6ba9c0a828a1"
+        ],
+        "x": 164,
+        "y": 1419,
+        "w": 1332,
+        "h": 82
+    },
+    {
+        "id": "d3a248fcb116279c",
+        "type": "group",
+        "z": "c988df2909293adc",
+        "name": "SEND DATA TO MOBILE APP",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true
+        },
+        "nodes": [
+            "d10c3ff02fe1df5a",
+            "d39f438e3e78bb37",
+            "3696617b713057c5",
+            "7ad9e73209437948",
+            "53018f5dff23c0e4",
+            "1a982c90778ca576",
+            "e475b68aa17121f7",
+            "32b2827dafd2e116",
+            "43b209c0722ffb11",
+            "096e778c8dc129e6",
+            "d25c024a020dc8bd",
+            "a5b41bf8647b8901",
+            "de8b2cd7bfb8c88d",
+            "ebf3dba3dec05e22",
+            "3e00f0388e6ae95b",
+            "eb1b6e64d0b76424",
+            "0f27bbed76da4549",
+            "228a518ed3dedfb9",
+            "46ec184cc59d1267"
+        ],
+        "x": 134,
+        "y": 339,
+        "w": 672,
+        "h": 502
+    },
+    {
+        "id": "93258ab7bb2f28c9",
+        "type": "group",
+        "z": "c988df2909293adc",
+        "name": "GET DATA FROM MOBILE APP",
+        "style": {
+            "stroke": "#6f2fa0",
+            "label": true
+        },
+        "nodes": [
+            "7314caacaaaa302f",
+            "8f899482910ab19b",
+            "02c3908f78694640",
+            "676d062da448b591",
+            "70931079858bc0ee",
+            "4c9a91adeb0d6417",
+            "6f7ead73db3eb0a2"
+        ],
+        "x": 1214,
+        "y": 379,
+        "w": 642,
+        "h": 282
+    },
+    {
+        "id": "50c366a3c401b3c8",
+        "type": "group",
+        "z": "d33edf6540f750cc",
+        "name": "LOCATION DASHBOARD",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c49c056a4e84b49c",
+            "766f5a684f1cdb58",
+            "31a176946ffebc54",
+            "ef9f4d2c98999e38",
+            "a68648dd0141c0b6",
+            "53ab7cbd070e00c4",
+            "1a8209c2c8ef7af8",
+            "98a90612dcee0101",
+            "840bac92a03f8dcf",
+            "ecfb6141a991a72c",
+            "3cce2254a7586e50",
+            "7a46f46ad79c5675",
+            "c128af39eceae3b5"
+        ],
+        "x": 274,
+        "y": 39,
+        "w": 672,
+        "h": 562
+    },
+    {
+        "id": "1a3969eeb4f91233",
+        "type": "group",
+        "z": "d33edf6540f750cc",
+        "name": "PETRIDISH DASHBOARD",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "94e3a82d434ae253",
+            "e63346a35b3cc70d",
+            "1a0747399fbc4303",
+            "b4e7938dbe26f722",
+            "1e24da18806efdd2",
+            "e5054781d785d746",
+            "3ff420a1e2b68f23",
+            "e948283c53244f95",
+            "e553aa300e8ef998",
+            "536cfbe067cbe607"
+        ],
+        "x": 404,
+        "y": 759,
+        "w": 502,
+        "h": 462
     },
     {
         "id": "d8e00f1154138f89",
@@ -319,7 +474,7 @@
         "tab": "72c0f6797810a72b",
         "order": 2,
         "disp": false,
-        "width": 8,
+        "width": 16,
         "collapse": false,
         "className": ""
     },
@@ -330,7 +485,7 @@
         "tab": "72c0f6797810a72b",
         "order": 3,
         "disp": false,
-        "width": 8,
+        "width": 16,
         "collapse": false,
         "className": ""
     },
@@ -433,7 +588,7 @@
         }
     },
     {
-        "id": "bd5ba9986fd7cfc3",
+        "id": "beb2714bd61b16bc",
         "type": "ui_spacer",
         "z": "d33edf6540f750cc",
         "name": "spacer",
@@ -443,7 +598,7 @@
         "height": 1
     },
     {
-        "id": "fd309eb19363db35",
+        "id": "e01c31d1d198060e",
         "type": "ui_spacer",
         "z": "d33edf6540f750cc",
         "name": "spacer",
@@ -453,31 +608,133 @@
         "height": 1
     },
     {
-        "id": "94c068ce97488a3a",
+        "id": "f92179f0969469d8",
         "type": "ui_spacer",
         "z": "d33edf6540f750cc",
         "name": "spacer",
-        "group": "fb18575290cf595c",
-        "order": 6,
-        "width": 2,
+        "group": "15499f321bd952cf",
+        "order": 3,
+        "width": 8,
         "height": 1
     },
     {
-        "id": "db28a94918dcca3d",
+        "id": "07507355f20d7a8b",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "15499f321bd952cf",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "574e23f7d1a04506",
         "type": "ui_spacer",
         "z": "d33edf6540f750cc",
         "name": "spacer",
         "group": "fb18575290cf595c",
-        "order": 7,
-        "width": 2,
+        "order": 1,
+        "width": 4,
         "height": 1
+    },
+    {
+        "id": "a5f10c97b64aa956",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "fb18575290cf595c",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "b748ad43e6bc49cd",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "fb18575290cf595c",
+        "order": 4,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "2df4f565d6089790",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "fb18575290cf595c",
+        "order": 5,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "b47214b2d845e1e8",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "fb18575290cf595c",
+        "order": 9,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "f5e2e926c8566e64",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "98fd8c738bd0da99",
+        "order": 1,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "7cf001331fa05e4e",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "98fd8c738bd0da99",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "cff18dd9d6c00d9b",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "98fd8c738bd0da99",
+        "order": 4,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "9ebc9959e9961d0c",
+        "type": "ui_spacer",
+        "z": "d33edf6540f750cc",
+        "name": "spacer",
+        "group": "98fd8c738bd0da99",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "1ad9c636204b96b7",
+        "type": "ui_group",
+        "name": "Startup Screen",
+        "tab": "72c0f6797810a72b",
+        "order": 4,
+        "disp": false,
+        "width": "18",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "c49c056a4e84b49c",
         "type": "ui_text",
         "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
         "group": "fb18575290cf595c",
-        "order": 2,
+        "order": 6,
         "width": 8,
         "height": 2,
         "name": "",
@@ -485,8 +742,8 @@
         "format": "{{msg.payload.type}}",
         "layout": "col-center",
         "className": "",
-        "style": false,
-        "font": "",
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
         "fontSize": "24",
         "color": "#000000",
         "x": 800,
@@ -497,8 +754,9 @@
         "id": "766f5a684f1cdb58",
         "type": "ui_text",
         "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
         "group": "fb18575290cf595c",
-        "order": 3,
+        "order": 7,
         "width": 8,
         "height": 2,
         "name": "",
@@ -518,35 +776,37 @@
         "id": "94e3a82d434ae253",
         "type": "ui_text",
         "z": "d33edf6540f750cc",
+        "g": "1a3969eeb4f91233",
         "group": "98fd8c738bd0da99",
-        "order": 1,
+        "order": 2,
         "width": 8,
-        "height": 2,
+        "height": 1,
         "name": "",
-        "label": "Petri Dish Data",
-        "format": "",
-        "layout": "col-center",
+        "label": "Petri Dish ID: ",
+        "format": "{{msg.payload.id}}",
+        "layout": "row-center",
         "className": "",
         "style": true,
         "font": "Trebuchet MS,Helvetica,sans-serif",
         "fontSize": "32",
         "color": "#375583",
-        "x": 800,
-        "y": 660,
+        "x": 790,
+        "y": 800,
         "wires": []
     },
     {
         "id": "31a176946ffebc54",
         "type": "ui_text",
         "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
         "group": "fb18575290cf595c",
-        "order": 1,
+        "order": 2,
         "width": 8,
         "height": 2,
         "name": "",
-        "label": "Sensor Data",
-        "format": "",
-        "layout": "col-center",
+        "label": "Sensor ID: ",
+        "format": "{{msg.payload.id}}",
+        "layout": "row-center",
         "className": "",
         "style": true,
         "font": "Trebuchet MS,Helvetica,sans-serif",
@@ -560,97 +820,102 @@
         "id": "e63346a35b3cc70d",
         "type": "ui_text",
         "z": "d33edf6540f750cc",
+        "g": "1a3969eeb4f91233",
         "group": "98fd8c738bd0da99",
-        "order": 2,
-        "width": 8,
+        "order": 7,
+        "width": 5,
         "height": 2,
         "name": "",
         "label": "Patient Name",
         "format": "{{msg.payload.name}}",
         "layout": "col-center",
         "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
+        "fontSize": "24",
         "color": "#000000",
         "x": 800,
-        "y": 720,
+        "y": 860,
         "wires": []
     },
     {
         "id": "1a0747399fbc4303",
         "type": "ui_text",
         "z": "d33edf6540f750cc",
+        "g": "1a3969eeb4f91233",
         "group": "98fd8c738bd0da99",
-        "order": 4,
-        "width": 8,
+        "order": 9,
+        "width": 3,
         "height": 2,
         "name": "",
         "label": "Age",
         "format": "{{msg.payload.age}}",
         "layout": "col-center",
         "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
+        "fontSize": "24",
         "color": "#000000",
         "x": 770,
-        "y": 880,
+        "y": 1020,
         "wires": []
     },
     {
         "id": "b4e7938dbe26f722",
         "type": "ui_text",
         "z": "d33edf6540f750cc",
+        "g": "1a3969eeb4f91233",
         "group": "98fd8c738bd0da99",
-        "order": 3,
-        "width": 8,
+        "order": 8,
+        "width": 3,
         "height": 2,
         "name": "",
         "label": "Gender",
         "format": "{{msg.payload.gender}}",
         "layout": "col-center",
         "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
+        "fontSize": "24",
         "color": "#000000",
         "x": 780,
-        "y": 800,
+        "y": 940,
         "wires": []
     },
     {
         "id": "1e24da18806efdd2",
         "type": "ui_text",
         "z": "d33edf6540f750cc",
+        "g": "1a3969eeb4f91233",
         "group": "98fd8c738bd0da99",
-        "order": 5,
-        "width": 8,
+        "order": 10,
+        "width": 5,
         "height": 2,
         "name": "",
         "label": "Partner Name",
         "format": "{{msg.payload.name}}",
         "layout": "col-center",
         "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
+        "fontSize": "24",
         "color": "#000000",
         "x": 800,
-        "y": 960,
+        "y": 1180,
         "wires": []
     },
     {
         "id": "ef9f4d2c98999e38",
         "type": "ui_text",
         "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
         "group": "15499f321bd952cf",
-        "order": 3,
+        "order": 5,
         "width": 8,
-        "height": 6,
+        "height": 2,
         "name": "",
         "label": "Location Name",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload.name}}",
         "layout": "col-center",
         "className": "",
         "style": true,
@@ -658,14 +923,15 @@
         "fontSize": "32",
         "color": "#375583",
         "x": 800,
-        "y": 120,
+        "y": 80,
         "wires": []
     },
     {
         "id": "a68648dd0141c0b6",
         "type": "link in",
         "z": "d33edf6540f750cc",
-        "name": "Location Name Input",
+        "g": "50c366a3c401b3c8",
+        "name": "Location Data Input",
         "links": [
             "7ace8935ca5d4402"
         ],
@@ -673,7 +939,8 @@
         "y": 120,
         "wires": [
             [
-                "ef9f4d2c98999e38"
+                "ef9f4d2c98999e38",
+                "c128af39eceae3b5"
             ]
         ]
     },
@@ -681,6 +948,7 @@
         "id": "53ab7cbd070e00c4",
         "type": "link in",
         "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
         "name": "Sensor Data Input",
         "links": [
             "dbc0cb8785542ece"
@@ -697,90 +965,35 @@
         "id": "1a8209c2c8ef7af8",
         "type": "link in",
         "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
         "name": "Temperature Reading Input",
         "links": [
             "336980cedb0120eb"
         ],
-        "x": 445,
-        "y": 360,
+        "x": 645,
+        "y": 400,
         "wires": [
             [
-                "766f5a684f1cdb58"
+                "766f5a684f1cdb58",
+                "98a90612dcee0101"
             ]
-        ]
-    },
-    {
-        "id": "2cbc8b8d5c0c6ca1",
-        "type": "link in",
-        "z": "d33edf6540f750cc",
-        "name": "Battery Level Input",
-        "links": [
-            "cbb921e4e2e1f907"
-        ],
-        "x": 445,
-        "y": 520,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cc8446a63317960d",
-        "type": "link in",
-        "z": "d33edf6540f750cc",
-        "name": "Error Status Input",
-        "links": [
-            "4a5be01644c8de4c"
-        ],
-        "x": 445,
-        "y": 440,
-        "wires": [
-            []
         ]
     },
     {
         "id": "e5054781d785d746",
         "type": "link in",
         "z": "d33edf6540f750cc",
-        "name": "Patient Data Input",
+        "g": "1a3969eeb4f91233",
+        "name": "QR Patient Data Input",
         "links": [
-            "14aa37e6dd356553"
+            "d284aaaf2dd4b47d"
         ],
         "x": 445,
-        "y": 720,
+        "y": 940,
         "wires": [
             [
-                "e63346a35b3cc70d"
-            ]
-        ]
-    },
-    {
-        "id": "89a80403b83f591e",
-        "type": "link in",
-        "z": "d33edf6540f750cc",
-        "name": "Patient Data Input",
-        "links": [
-            "14aa37e6dd356553"
-        ],
-        "x": 445,
-        "y": 800,
-        "wires": [
-            [
-                "b4e7938dbe26f722"
-            ]
-        ]
-    },
-    {
-        "id": "554f12eff4fee39c",
-        "type": "link in",
-        "z": "d33edf6540f750cc",
-        "name": "Patient Data Input",
-        "links": [
-            "14aa37e6dd356553"
-        ],
-        "x": 445,
-        "y": 880,
-        "wires": [
-            [
+                "e63346a35b3cc70d",
+                "b4e7938dbe26f722",
                 "1a0747399fbc4303"
             ]
         ]
@@ -789,12 +1002,13 @@
         "id": "3ff420a1e2b68f23",
         "type": "link in",
         "z": "d33edf6540f750cc",
-        "name": "Partner Data Input",
+        "g": "1a3969eeb4f91233",
+        "name": "QR Partner Data Input",
         "links": [
-            "dd83157cfa932891"
+            "61c3c57f6702f8b5"
         ],
         "x": 445,
-        "y": 960,
+        "y": 1180,
         "wires": [
             [
                 "1e24da18806efdd2"
@@ -802,40 +1016,378 @@
         ]
     },
     {
-        "id": "513ba146b8d0b9f7",
+        "id": "98a90612dcee0101",
+        "type": "ui_chart",
+        "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
+        "name": "",
+        "group": "fb18575290cf595c",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "label": "Temperature Plot",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 810,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "840bac92a03f8dcf",
         "type": "function",
-        "z": "8933d83034b64aec",
-        "g": "e90329e3b028bd6d",
-        "name": "Create SQL query for sensor Id extraction",
-        "func": "let locationId = msg.payload[1];\n\n// Get sensor Id for the location from the database\nmsg.topic = \"SELECT sensors FROM locationdata WHERE id = \" + locationId;\n\n\nreturn msg;",
+        "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
+        "name": "Refresh Graph",
+        "func": "msg.payload = [];\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 330,
+        "x": 600,
+        "y": 500,
         "wires": [
             [
-                "f204c5b1df7c8eae"
+                "98a90612dcee0101"
             ]
         ]
     },
     {
-        "id": "f204c5b1df7c8eae",
-        "type": "mysql",
-        "z": "8933d83034b64aec",
-        "g": "e90329e3b028bd6d",
-        "mydb": "af09f12555b160d3",
-        "name": "Database",
-        "x": 800,
-        "y": 330,
+        "id": "ecfb6141a991a72c",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
+        "name": "Location QR Input",
+        "links": [
+            "8f899482910ab19b",
+            "eae454e539621ba9"
+        ],
+        "x": 445,
+        "y": 440,
         "wires": [
             [
-                "c0a91ac480f19ba3"
+                "840bac92a03f8dcf"
             ]
         ]
+    },
+    {
+        "id": "3cce2254a7586e50",
+        "type": "ui_button",
+        "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
+        "name": "",
+        "group": "fb18575290cf595c",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Refresh Graph",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 380,
+        "y": 560,
+        "wires": [
+            [
+                "840bac92a03f8dcf"
+            ]
+        ]
+    },
+    {
+        "id": "7a46f46ad79c5675",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
+        "name": "Sensor Data Input",
+        "links": [
+            "dbc0cb8785542ece"
+        ],
+        "x": 445,
+        "y": 220,
+        "wires": [
+            [
+                "31a176946ffebc54"
+            ]
+        ]
+    },
+    {
+        "id": "30f74f902697df3e",
+        "type": "ui_ui_control",
+        "z": "d33edf6540f750cc",
+        "name": "Switch Location and Petridish",
+        "events": "all",
+        "x": 990,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b60ba071452bca6",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "name": "Location QR Input",
+        "links": [
+            "8f899482910ab19b"
+        ],
+        "x": 395,
+        "y": 1440,
+        "wires": [
+            [
+                "3f5fd519922713c9"
+            ]
+        ]
+    },
+    {
+        "id": "3f5fd519922713c9",
+        "type": "function",
+        "z": "d33edf6540f750cc",
+        "name": "Show Location panel",
+        "func": "msg.payload = { \"group\": { \"hide\": [\"METRUM_GENIE_DASHBOARD_Petridish_Details\", \"METRUM_GENIE_DASHBOARD_Startup_Screen\"], \"show\": [\"METRUM_GENIE_DASHBOARD_Sensor_Details\", \"METRUM_GENIE_DASHBOARD_Location_Details\"], \"focus\": true } }\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1440,
+        "wires": [
+            [
+                "30f74f902697df3e"
+            ]
+        ]
+    },
+    {
+        "id": "e948283c53244f95",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "g": "1a3969eeb4f91233",
+        "name": "Location QR Input",
+        "links": [
+            "15b1182d3196d59d"
+        ],
+        "x": 445,
+        "y": 800,
+        "wires": [
+            [
+                "94e3a82d434ae253"
+            ]
+        ]
+    },
+    {
+        "id": "c128af39eceae3b5",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "g": "50c366a3c401b3c8",
+        "group": "15499f321bd952cf",
+        "order": 6,
+        "width": 8,
+        "height": 2,
+        "name": "",
+        "label": "Location ID: ",
+        "format": "{{msg.payload.id}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
+        "fontSize": "20",
+        "color": "#878787",
+        "x": 790,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e553aa300e8ef998",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "g": "1a3969eeb4f91233",
+        "group": "98fd8c738bd0da99",
+        "order": 5,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Location Name: ",
+        "format": "{{msg.payload.name}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
+        "fontSize": "18",
+        "color": "#000000",
+        "x": 800,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "536cfbe067cbe607",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "g": "1a3969eeb4f91233",
+        "name": "Petridish QR - Location Data In",
+        "links": [
+            "e5ea6ba9c0a828a1"
+        ],
+        "x": 445,
+        "y": 1100,
+        "wires": [
+            [
+                "e553aa300e8ef998"
+            ]
+        ]
+    },
+    {
+        "id": "abf532dccd53cece",
+        "type": "function",
+        "z": "d33edf6540f750cc",
+        "name": "Show Petridish panel",
+        "func": "msg.payload = { \"group\": { \"hide\": [\"METRUM_GENIE_DASHBOARD_Sensor_Details\", \"METRUM_GENIE_DASHBOARD_Location_Details\", \"METRUM_GENIE_DASHBOARD_Startup_Screen\"], \"show\": [\"METRUM_GENIE_DASHBOARD_Petridish_Details\"], \"focus\": true } }\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1500,
+        "wires": [
+            [
+                "30f74f902697df3e"
+            ]
+        ]
+    },
+    {
+        "id": "8fd8437fd58767ad",
+        "type": "link in",
+        "z": "d33edf6540f750cc",
+        "name": "Petridish QR Input",
+        "links": [
+            "70931079858bc0ee"
+        ],
+        "x": 395,
+        "y": 1500,
+        "wires": [
+            [
+                "abf532dccd53cece"
+            ]
+        ]
+    },
+    {
+        "id": "b1b69d35dc641115",
+        "type": "ui_ui_control",
+        "z": "d33edf6540f750cc",
+        "name": "Clear dashboard",
+        "events": "all",
+        "x": 970,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "866a85300351f8c7",
+        "type": "inject",
+        "z": "d33edf6540f750cc",
+        "name": "Startup Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 480,
+        "y": 1660,
+        "wires": [
+            [
+                "20421befbf9ce618"
+            ]
+        ]
+    },
+    {
+        "id": "20421befbf9ce618",
+        "type": "function",
+        "z": "d33edf6540f750cc",
+        "name": "Clear Dashboard",
+        "func": "msg.payload = { \"group\": { \"hide\": [\"METRUM_GENIE_DASHBOARD_Sensor_Details\", \"METRUM_GENIE_DASHBOARD_Location_Details\", \"METRUM_GENIE_DASHBOARD_Petridish_Details\"], \"show\": [\"METRUM_GENIE_DASHBOARD_Startup_Screen\"], \"focus\": true  } }\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1660,
+        "wires": [
+            [
+                "b1b69d35dc641115"
+            ]
+        ]
+    },
+    {
+        "id": "fe2c0d9a43e2a4c2",
+        "type": "ui_text",
+        "z": "d33edf6540f750cc",
+        "group": "1ad9c636204b96b7",
+        "order": 0,
+        "width": "18",
+        "height": "8",
+        "name": "",
+        "label": "SCAN A BARCODE TO PROCEED",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Trebuchet MS,Helvetica,sans-serif",
+        "fontSize": "40",
+        "color": "#375583",
+        "x": 720,
+        "y": 1800,
+        "wires": []
     },
     {
         "id": "c0a91ac480f19ba3",
@@ -843,15 +1395,15 @@
         "z": "8933d83034b64aec",
         "g": "e90329e3b028bd6d",
         "name": "Create SQL query for sensor data extraction",
-        "func": "// Get sensor id for the location from the database\nconst sensorIdString = msg.payload[0].sensors; //Access the 'sensors' string\nconst sensorsObj = JSON.parse(sensorIdString); // Parse the JSON string into an object\nconst sensorId = sensorsObj.id[0] // Access the first id in the 'id' array\n\n// Create query\nmsg.topic = \"SELECT * FROM sensordata WHERE id = \" + sensorId;\n\nreturn msg;",
+        "func": "// Get sensor id for the location from the database\nconst sensorIdString = msg.payload.sensors; //Access the 'sensors' string\nconst sensorsObj = JSON.parse(sensorIdString); // Parse the JSON string into an object\nconst sensorId = sensorsObj.id[0] // Access the first id in the 'id' array\n\n// Create query\nmsg.topic = \"SELECT * FROM sensordata WHERE id = \" + sensorId;\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1110,
-        "y": 330,
+        "x": 490,
+        "y": 320,
         "wires": [
             [
                 "e070f9de8a3b0cd1"
@@ -864,7 +1416,7 @@
         "z": "8933d83034b64aec",
         "g": "5d85179eeec0bfaa",
         "name": "Create SQL query for location data extraction",
-        "func": "let locationId = msg.payload[1];\n\n// Get sensor details for the location from the database\nmsg.topic = \"SELECT name FROM locationdata WHERE id = \" + locationId;\n\nreturn msg;",
+        "func": "let locationId = msg.payload[1];\n\n// Get sensor details for the location from the database\nmsg.topic = \"SELECT * FROM locationdata WHERE id = \" + locationId;\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -899,8 +1451,8 @@
         "type": "function",
         "z": "8933d83034b64aec",
         "g": "5d85179eeec0bfaa",
-        "name": "Extract location name",
-        "func": "// Get location name for the location from the database\nconst locationNameString = msg.payload[0].name; //Access the 'name' string\n\nmsg.payload = locationNameString;\n\nreturn msg;",
+        "name": "Extract location data",
+        "func": "// Get location data for the location from the database\nmsg.payload = msg.payload[0]; \n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -920,11 +1472,13 @@
         "type": "link out",
         "z": "8933d83034b64aec",
         "g": "5d85179eeec0bfaa",
-        "name": "Location Name Output",
+        "name": "Location Data Output",
         "mode": "link",
         "links": [
-            "a68648dd0141c0b6",
-            "a5b41bf8647b8901"
+            "4f26c98c24308709",
+            "82d63d70cb9b83cd",
+            "a5b41bf8647b8901",
+            "a68648dd0141c0b6"
         ],
         "x": 1225,
         "y": 180,
@@ -935,15 +1489,15 @@
         "type": "link in",
         "z": "8933d83034b64aec",
         "g": "e90329e3b028bd6d",
-        "name": "QR Code Scanner Input",
+        "name": "Location Data Input",
         "links": [
-            "8f899482910ab19b"
+            "7ace8935ca5d4402"
         ],
         "x": 205,
-        "y": 330,
+        "y": 320,
         "wires": [
             [
-                "513ba146b8d0b9f7"
+                "c0a91ac480f19ba3"
             ]
         ]
     },
@@ -952,7 +1506,7 @@
         "type": "link in",
         "z": "8933d83034b64aec",
         "g": "5d85179eeec0bfaa",
-        "name": "QR Code Scanner Input",
+        "name": "Location QR Input",
         "links": [
             "8f899482910ab19b"
         ],
@@ -971,8 +1525,8 @@
         "g": "e90329e3b028bd6d",
         "mydb": "af09f12555b160d3",
         "name": "Database",
-        "x": 1400,
-        "y": 330,
+        "x": 780,
+        "y": 320,
         "wires": [
             [
                 "f148a47900c26632"
@@ -992,8 +1546,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1610,
-        "y": 330,
+        "x": 990,
+        "y": 320,
         "wires": [
             [
                 "dbc0cb8785542ece"
@@ -1009,47 +1563,13 @@
         "mode": "link",
         "links": [
             "1ec8827de23217b8",
-            "53ab7cbd070e00c4"
+            "53ab7cbd070e00c4",
+            "7a46f46ad79c5675",
+            "ebf3dba3dec05e22"
         ],
-        "x": 1785,
-        "y": 330,
+        "x": 1165,
+        "y": 320,
         "wires": []
-    },
-    {
-        "id": "95d26bb39c28aa93",
-        "type": "function",
-        "z": "8933d83034b64aec",
-        "g": "650e5a9cb1e4d903",
-        "name": "Create SQL query for petridish Id extraction",
-        "func": "let locationId = msg.payload[1];\n\n// Get petridish Id for the location from the database\nmsg.topic = \"SELECT petriDishes FROM locationdata WHERE id = \" + locationId;\n\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 490,
-        "y": 480,
-        "wires": [
-            [
-                "523abdd757fb45e5"
-            ]
-        ]
-    },
-    {
-        "id": "523abdd757fb45e5",
-        "type": "mysql",
-        "z": "8933d83034b64aec",
-        "g": "650e5a9cb1e4d903",
-        "mydb": "af09f12555b160d3",
-        "name": "Database",
-        "x": 800,
-        "y": 480,
-        "wires": [
-            [
-                "ea3c050b543ec0b6"
-            ]
-        ]
     },
     {
         "id": "ea3c050b543ec0b6",
@@ -1057,15 +1577,15 @@
         "z": "8933d83034b64aec",
         "g": "650e5a9cb1e4d903",
         "name": "Create SQL query for petridish data extraction",
-        "func": "// Get petridish id for the location from the database\nconst petridishIdString = msg.payload[0].petriDishes; //Access the 'petriDishes' string\nconst petridishObj = JSON.parse(petridishIdString); // Parse the JSON string into an object\nconst petridishId = petridishObj.id[0] // Access the first id in the 'id' array\n\n// Create query\nmsg.topic = \"SELECT * FROM petridishdata WHERE id = \" + petridishId;\n\nreturn msg;",
+        "func": "// Get petridish id for the location from the database\nconst petridishIdString = msg.payload.petriDishes; //Access the 'petriDishes' string\nconst petridishObj = JSON.parse(petridishIdString); // Parse the JSON string into an object\nconst petridishId = petridishObj.id[0] // Access the first id in the 'id' array\n\n// Create query\nmsg.topic = \"SELECT * FROM petridishdata WHERE id = \" + petridishId;\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1120,
-        "y": 480,
+        "x": 500,
+        "y": 460,
         "wires": [
             [
                 "5084232bb04a8071"
@@ -1077,15 +1597,15 @@
         "type": "link in",
         "z": "8933d83034b64aec",
         "g": "650e5a9cb1e4d903",
-        "name": "QR Code Scanner Input",
+        "name": "Location Data Input",
         "links": [
-            "8f899482910ab19b"
+            "7ace8935ca5d4402"
         ],
         "x": 205,
-        "y": 480,
+        "y": 460,
         "wires": [
             [
-                "95d26bb39c28aa93"
+                "ea3c050b543ec0b6"
             ]
         ]
     },
@@ -1096,8 +1616,8 @@
         "g": "650e5a9cb1e4d903",
         "mydb": "af09f12555b160d3",
         "name": "Database",
-        "x": 1400,
-        "y": 480,
+        "x": 780,
+        "y": 460,
         "wires": [
             [
                 "4f5e5ea6d0902427"
@@ -1117,8 +1637,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1620,
-        "y": 480,
+        "x": 1000,
+        "y": 460,
         "wires": [
             [
                 "b0e14ae4dd60c7a2"
@@ -1135,8 +1655,8 @@
         "links": [
             "76624b9338ba5e48"
         ],
-        "x": 1785,
-        "y": 480,
+        "x": 1165,
+        "y": 460,
         "wires": []
     },
     {
@@ -1236,11 +1756,8 @@
         "name": "Patient Data Output",
         "mode": "link",
         "links": [
-            "717a606ff7ad682e",
             "32b2827dafd2e116",
-            "e5054781d785d746",
-            "89a80403b83f591e",
-            "554f12eff4fee39c"
+            "717a606ff7ad682e"
         ],
         "x": 1785,
         "y": 630,
@@ -1328,8 +1845,7 @@
         "name": "Partner Data Output",
         "mode": "link",
         "links": [
-            "096e778c8dc129e6",
-            "3ff420a1e2b68f23"
+            "096e778c8dc129e6"
         ],
         "x": 1205,
         "y": 780,
@@ -1357,12 +1873,406 @@
         ]
     },
     {
+        "id": "98a36e495968112a",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "2f64157acb78fc9c",
+        "name": "Create SQL query for petridish data extraction",
+        "func": "let petridishId = msg.payload[1];\n\n// Create query\nmsg.topic = \"SELECT * FROM petridishdata WHERE id = \" + petridishId;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1020,
+        "wires": [
+            [
+                "34ffdf8ddc2e7b75"
+            ]
+        ]
+    },
+    {
+        "id": "f3b4177b2dc7502d",
+        "type": "link in",
+        "z": "8933d83034b64aec",
+        "g": "2f64157acb78fc9c",
+        "name": "Petridish QR Input",
+        "links": [
+            "70931079858bc0ee"
+        ],
+        "x": 205,
+        "y": 1020,
+        "wires": [
+            [
+                "98a36e495968112a"
+            ]
+        ]
+    },
+    {
+        "id": "34ffdf8ddc2e7b75",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "2f64157acb78fc9c",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 780,
+        "y": 1020,
+        "wires": [
+            [
+                "a5606b5c016020b1"
+            ]
+        ]
+    },
+    {
+        "id": "a5606b5c016020b1",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "2f64157acb78fc9c",
+        "name": "Extract petridish data",
+        "func": "// Extract petridish Id\nmsg.payload = msg.payload[0]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 1020,
+        "wires": [
+            [
+                "15b1182d3196d59d"
+            ]
+        ]
+    },
+    {
+        "id": "15b1182d3196d59d",
+        "type": "link out",
+        "z": "8933d83034b64aec",
+        "g": "2f64157acb78fc9c",
+        "name": "QR Petridish Data Output",
+        "mode": "link",
+        "links": [
+            "4b3c8d77db1d48e0",
+            "e948283c53244f95"
+        ],
+        "x": 1165,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "92c7eb735b8a48e5",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "3ffce412cec7d6d1",
+        "name": "Create SQL query for patient Id extraction",
+        "func": "let petridishId = msg.payload.id;\n\n// Get patient Id for the location from the database\nmsg.topic = \"SELECT patientId FROM petridishdata WHERE id = \" + petridishId;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 1170,
+        "wires": [
+            [
+                "bd2ce22e979079d2"
+            ]
+        ]
+    },
+    {
+        "id": "bd2ce22e979079d2",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "3ffce412cec7d6d1",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 800,
+        "y": 1170,
+        "wires": [
+            [
+                "0b90e8a54e051062"
+            ]
+        ]
+    },
+    {
+        "id": "0b90e8a54e051062",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "3ffce412cec7d6d1",
+        "name": "Create SQL query for patient data extraction",
+        "func": "// Get patient id for the location from the database\nconst patientId = msg.payload[0].patientId; //Access the 'patientId' string\n\n// Create query\nmsg.topic = \"SELECT * FROM patientdata WHERE id = \" + patientId;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 1170,
+        "wires": [
+            [
+                "f95cf8e0d77d1a18"
+            ]
+        ]
+    },
+    {
+        "id": "4b3c8d77db1d48e0",
+        "type": "link in",
+        "z": "8933d83034b64aec",
+        "g": "3ffce412cec7d6d1",
+        "name": "QR Petridish Data Input",
+        "links": [
+            "15b1182d3196d59d"
+        ],
+        "x": 205,
+        "y": 1170,
+        "wires": [
+            [
+                "92c7eb735b8a48e5"
+            ]
+        ]
+    },
+    {
+        "id": "f95cf8e0d77d1a18",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "3ffce412cec7d6d1",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 1400,
+        "y": 1170,
+        "wires": [
+            [
+                "375475186b466602"
+            ]
+        ]
+    },
+    {
+        "id": "d284aaaf2dd4b47d",
+        "type": "link out",
+        "z": "8933d83034b64aec",
+        "g": "3ffce412cec7d6d1",
+        "name": "QR Patient Data Output",
+        "mode": "link",
+        "links": [
+            "32b2827dafd2e116",
+            "41d23a351fda5dab",
+            "e5054781d785d746"
+        ],
+        "x": 1785,
+        "y": 1170,
+        "wires": []
+    },
+    {
+        "id": "375475186b466602",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "3ffce412cec7d6d1",
+        "name": "Extract patient data",
+        "func": "// Extract patient data\nmsg.payload = msg.payload[0]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1610,
+        "y": 1170,
+        "wires": [
+            [
+                "d284aaaf2dd4b47d"
+            ]
+        ]
+    },
+    {
+        "id": "174289c2ed0d1258",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "f479363812cac5ed",
+        "name": "Create SQL query for partner data extraction",
+        "func": "let partnerId = msg.payload.partnerId;\n\n// Get patient data for the partner Id\nmsg.topic = \"SELECT * FROM patientdata WHERE id = \" + partnerId;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 1320,
+        "wires": [
+            [
+                "851fe91e14f3661e"
+            ]
+        ]
+    },
+    {
+        "id": "851fe91e14f3661e",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "f479363812cac5ed",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 800,
+        "y": 1320,
+        "wires": [
+            [
+                "6905db56f5bc0d59"
+            ]
+        ]
+    },
+    {
+        "id": "41d23a351fda5dab",
+        "type": "link in",
+        "z": "8933d83034b64aec",
+        "g": "f479363812cac5ed",
+        "name": "Patient Data Input",
+        "links": [
+            "d284aaaf2dd4b47d"
+        ],
+        "x": 205,
+        "y": 1320,
+        "wires": [
+            [
+                "174289c2ed0d1258"
+            ]
+        ]
+    },
+    {
+        "id": "61c3c57f6702f8b5",
+        "type": "link out",
+        "z": "8933d83034b64aec",
+        "g": "f479363812cac5ed",
+        "name": "QR Partner Data Output",
+        "mode": "link",
+        "links": [
+            "096e778c8dc129e6",
+            "3ff420a1e2b68f23"
+        ],
+        "x": 1205,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "6905db56f5bc0d59",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "f479363812cac5ed",
+        "name": "Extract partner data",
+        "func": "// Extract partner data\nmsg.payload = msg.payload[0]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 1320,
+        "wires": [
+            [
+                "61c3c57f6702f8b5"
+            ]
+        ]
+    },
+    {
+        "id": "b599fbea18270d07",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "b7ed986902f36d73",
+        "name": "Create SQL query for petridish data extraction from all locations",
+        "func": "// Store the petridish Id\nmsg.petridishId = parseInt(msg.payload[1]);\n\n// Create query\nmsg.topic = \"SELECT * FROM locationdata\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 1460,
+        "wires": [
+            [
+                "1965a52fe0b0b09a"
+            ]
+        ]
+    },
+    {
+        "id": "1965a52fe0b0b09a",
+        "type": "mysql",
+        "z": "8933d83034b64aec",
+        "g": "b7ed986902f36d73",
+        "mydb": "af09f12555b160d3",
+        "name": "Database",
+        "x": 940,
+        "y": 1460,
+        "wires": [
+            [
+                "25aee7c0f74b773f"
+            ]
+        ]
+    },
+    {
+        "id": "25aee7c0f74b773f",
+        "type": "function",
+        "z": "8933d83034b64aec",
+        "g": "b7ed986902f36d73",
+        "name": "Extract partner data",
+        "func": "// Iterate through location IDs\nfor (let i = 0; i < msg.payload.length; i++) {\n    let petridishIdString = msg.payload[i].petriDishes; //Access the 'petriDishes' string\n    let petridishIdStringObj = JSON.parse(petridishIdString); // Parse the JSON string into an object\n    // Search in petridish array\n    if (petridishIdStringObj.id.includes(msg.petridishId)) {\n        // Return location data\n        msg.payload = msg.payload[i];\n        return msg;\n    }  \n}\nmsg.payload = 0;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 1460,
+        "wires": [
+            [
+                "e5ea6ba9c0a828a1"
+            ]
+        ]
+    },
+    {
+        "id": "5b78ad79a1a654fe",
+        "type": "link in",
+        "z": "8933d83034b64aec",
+        "g": "b7ed986902f36d73",
+        "name": "Petridish QR Input",
+        "links": [
+            "16d624e65ccee7f0",
+            "70931079858bc0ee"
+        ],
+        "x": 205,
+        "y": 1460,
+        "wires": [
+            [
+                "b599fbea18270d07"
+            ]
+        ]
+    },
+    {
+        "id": "e5ea6ba9c0a828a1",
+        "type": "link out",
+        "z": "8933d83034b64aec",
+        "g": "b7ed986902f36d73",
+        "name": "Petridish QR - Location Data Out",
+        "mode": "link",
+        "links": [
+            "536cfbe067cbe607",
+            "eb1b6e64d0b76424"
+        ],
+        "x": 1455,
+        "y": 1460,
+        "wires": []
+    },
+    {
         "id": "7314caacaaaa302f",
         "type": "mqtt in",
         "z": "c988df2909293adc",
-        "g": "8979a4e172e8c41c",
-        "name": "QR Code Scanner",
-        "topic": "VL/MG/M/QR",
+        "g": "93258ab7bb2f28c9",
+        "name": "Location QR Scanner Output",
+        "topic": "VL/MG/M/QRL",
         "qos": "2",
         "datatype": "utf8",
         "broker": "d8e00f1154138f89",
@@ -1370,11 +2280,12 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 250,
-        "y": 820,
+        "x": 1360,
+        "y": 420,
         "wires": [
             [
-                "8f899482910ab19b"
+                "02c3908f78694640",
+                "4c9a91adeb0d6417"
             ]
         ]
     },
@@ -1382,16 +2293,16 @@
         "id": "8f899482910ab19b",
         "type": "link out",
         "z": "c988df2909293adc",
-        "g": "8979a4e172e8c41c",
-        "name": "QR Code Scanner Output",
+        "g": "93258ab7bb2f28c9",
+        "name": "Location QR Output",
         "mode": "link",
         "links": [
-            "4f26c98c24308709",
-            "82d63d70cb9b83cd",
-            "e1734b0dac06a1e7"
+            "0b60ba071452bca6",
+            "e1734b0dac06a1e7",
+            "ecfb6141a991a72c"
         ],
-        "x": 485,
-        "y": 820,
+        "x": 1815,
+        "y": 420,
         "wires": []
     },
     {
@@ -1565,8 +2476,7 @@
         "name": "Error Status Output",
         "mode": "link",
         "links": [
-            "7ad9e73209437948",
-            "cc8446a63317960d"
+            "7ad9e73209437948"
         ],
         "x": 1825,
         "y": 180,
@@ -1602,8 +2512,7 @@
         "name": "Battery Level Output",
         "mode": "link",
         "links": [
-            "1a982c90778ca576",
-            "2cbc8b8d5c0c6ca1"
+            "1a982c90778ca576"
         ],
         "x": 1825,
         "y": 240,
@@ -1613,7 +2522,7 @@
         "id": "d10c3ff02fe1df5a",
         "type": "mqtt out",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Temperature reading for App",
         "topic": "VL/MG/M/TR",
         "qos": "",
@@ -1624,24 +2533,24 @@
         "correl": "",
         "expiry": "",
         "broker": "d8e00f1154138f89",
-        "x": 420,
-        "y": 560,
+        "x": 660,
+        "y": 620,
         "wires": []
     },
     {
         "id": "d39f438e3e78bb37",
         "type": "link in",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Temperature Reading Input",
         "links": [
             "336980cedb0120eb"
         ],
         "x": 175,
-        "y": 560,
+        "y": 620,
         "wires": [
             [
-                "d10c3ff02fe1df5a"
+                "0f27bbed76da4549"
             ]
         ]
     },
@@ -1649,7 +2558,7 @@
         "id": "3696617b713057c5",
         "type": "mqtt out",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Error status for App",
         "topic": "VL/MG/M/ES",
         "qos": "",
@@ -1660,24 +2569,24 @@
         "correl": "",
         "expiry": "",
         "broker": "d8e00f1154138f89",
-        "x": 390,
-        "y": 620,
+        "x": 630,
+        "y": 680,
         "wires": []
     },
     {
         "id": "7ad9e73209437948",
         "type": "link in",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Error Status Input",
         "links": [
             "4a5be01644c8de4c"
         ],
         "x": 175,
-        "y": 620,
+        "y": 680,
         "wires": [
             [
-                "3696617b713057c5"
+                "228a518ed3dedfb9"
             ]
         ]
     },
@@ -1685,7 +2594,7 @@
         "id": "53018f5dff23c0e4",
         "type": "mqtt out",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Battery level for App",
         "topic": "VL/MG/M/BL",
         "qos": "",
@@ -1696,24 +2605,24 @@
         "correl": "",
         "expiry": "",
         "broker": "d8e00f1154138f89",
-        "x": 400,
-        "y": 680,
+        "x": 640,
+        "y": 740,
         "wires": []
     },
     {
         "id": "1a982c90778ca576",
         "type": "link in",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Battery Level Input",
         "links": [
             "cbb921e4e2e1f907"
         ],
         "x": 175,
-        "y": 680,
+        "y": 740,
         "wires": [
             [
-                "53018f5dff23c0e4"
+                "46ec184cc59d1267"
             ]
         ]
     },
@@ -1721,7 +2630,7 @@
         "id": "e475b68aa17121f7",
         "type": "mqtt out",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Patient data for App",
         "topic": "VL/MG/M/PTD",
         "qos": "",
@@ -1740,10 +2649,11 @@
         "id": "32b2827dafd2e116",
         "type": "link in",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Patient Data Input",
         "links": [
-            "14aa37e6dd356553"
+            "14aa37e6dd356553",
+            "d284aaaf2dd4b47d"
         ],
         "x": 175,
         "y": 440,
@@ -1757,7 +2667,7 @@
         "id": "43b209c0722ffb11",
         "type": "mqtt out",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Partner data for App",
         "topic": "VL/MG/M/PRD",
         "qos": "",
@@ -1776,9 +2686,10 @@
         "id": "096e778c8dc129e6",
         "type": "link in",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Patner Data Input",
         "links": [
+            "61c3c57f6702f8b5",
             "dd83157cfa932891"
         ],
         "x": 175,
@@ -1863,7 +2774,7 @@
         "id": "d25c024a020dc8bd",
         "type": "mqtt out",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Location name for App",
         "topic": "VL/MG/M/L",
         "qos": "",
@@ -1882,7 +2793,7 @@
         "id": "a5b41bf8647b8901",
         "type": "link in",
         "z": "c988df2909293adc",
-        "g": "09d03e058d712cc4",
+        "g": "d3a248fcb116279c",
         "name": "Location Name Input",
         "links": [
             "7ace8935ca5d4402"
@@ -1892,6 +2803,237 @@
         "wires": [
             [
                 "d25c024a020dc8bd"
+            ]
+        ]
+    },
+    {
+        "id": "02c3908f78694640",
+        "type": "link out",
+        "z": "c988df2909293adc",
+        "g": "93258ab7bb2f28c9",
+        "name": "QR Output",
+        "mode": "link",
+        "links": [
+            "6a8e7c76571c5b4d",
+            "3792b3962dea6540"
+        ],
+        "x": 1815,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "de8b2cd7bfb8c88d",
+        "type": "mqtt out",
+        "z": "c988df2909293adc",
+        "g": "d3a248fcb116279c",
+        "name": "Sensor data for App",
+        "topic": "VL/MG/M/SD",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8e00f1154138f89",
+        "x": 400,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "ebf3dba3dec05e22",
+        "type": "link in",
+        "z": "c988df2909293adc",
+        "g": "d3a248fcb116279c",
+        "name": "Sensor Data Input",
+        "links": [
+            "dbc0cb8785542ece"
+        ],
+        "x": 175,
+        "y": 560,
+        "wires": [
+            [
+                "de8b2cd7bfb8c88d"
+            ]
+        ]
+    },
+    {
+        "id": "3e00f0388e6ae95b",
+        "type": "mqtt out",
+        "z": "c988df2909293adc",
+        "g": "d3a248fcb116279c",
+        "name": "Petridish location for App",
+        "topic": "VL/MG/M/PL",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8e00f1154138f89",
+        "x": 410,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "eb1b6e64d0b76424",
+        "type": "link in",
+        "z": "c988df2909293adc",
+        "g": "d3a248fcb116279c",
+        "name": "Petridish QR - Location Data In",
+        "links": [
+            "e5ea6ba9c0a828a1"
+        ],
+        "x": 175,
+        "y": 800,
+        "wires": [
+            [
+                "3e00f0388e6ae95b"
+            ]
+        ]
+    },
+    {
+        "id": "0f27bbed76da4549",
+        "type": "function",
+        "z": "c988df2909293adc",
+        "g": "d3a248fcb116279c",
+        "name": "Pass only for location QR",
+        "func": "let qr = global.get(\"qr_scanned\");\nif (qr[0] == \"L\") return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 620,
+        "wires": [
+            [
+                "d10c3ff02fe1df5a"
+            ]
+        ]
+    },
+    {
+        "id": "228a518ed3dedfb9",
+        "type": "function",
+        "z": "c988df2909293adc",
+        "g": "d3a248fcb116279c",
+        "name": "Pass only for location QR",
+        "func": "let qr = global.get(\"qr_scanned\");\nif (qr[0] == \"L\") return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 680,
+        "wires": [
+            [
+                "3696617b713057c5"
+            ]
+        ]
+    },
+    {
+        "id": "46ec184cc59d1267",
+        "type": "function",
+        "z": "c988df2909293adc",
+        "g": "d3a248fcb116279c",
+        "name": "Pass only for location QR",
+        "func": "let qr = global.get(\"qr_scanned\");\nif (qr[0] == \"L\") return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 740,
+        "wires": [
+            [
+                "53018f5dff23c0e4"
+            ]
+        ]
+    },
+    {
+        "id": "676d062da448b591",
+        "type": "mqtt in",
+        "z": "c988df2909293adc",
+        "g": "93258ab7bb2f28c9",
+        "name": "Petri Dish QR Scanner Output",
+        "topic": "VL/MG/M/QRP",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "d8e00f1154138f89",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1360,
+        "y": 620,
+        "wires": [
+            [
+                "02c3908f78694640",
+                "6f7ead73db3eb0a2"
+            ]
+        ]
+    },
+    {
+        "id": "70931079858bc0ee",
+        "type": "link out",
+        "z": "c988df2909293adc",
+        "g": "93258ab7bb2f28c9",
+        "name": "Petridish QR Output",
+        "mode": "link",
+        "links": [
+            "5b78ad79a1a654fe",
+            "8fd8437fd58767ad",
+            "f3b4177b2dc7502d"
+        ],
+        "x": 1815,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "4c9a91adeb0d6417",
+        "type": "function",
+        "z": "c988df2909293adc",
+        "g": "93258ab7bb2f28c9",
+        "name": "Filter locations",
+        "func": "if (msg.payload[0] == \"L\") return msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1680,
+        "y": 420,
+        "wires": [
+            [
+                "8f899482910ab19b"
+            ]
+        ]
+    },
+    {
+        "id": "6f7ead73db3eb0a2",
+        "type": "function",
+        "z": "c988df2909293adc",
+        "g": "93258ab7bb2f28c9",
+        "name": "Filter Petridshes",
+        "func": "if (msg.payload[0] == \"P\") return msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1680,
+        "y": 620,
+        "wires": [
+            [
+                "70931079858bc0ee"
             ]
         ]
     },
@@ -2082,22 +3224,57 @@
         "wires": []
     },
     {
-        "id": "7ee165f22723200f",
+        "id": "9f968108113b19ee",
         "type": "ui_template",
         "z": "ed6b5350db2f3f24",
         "group": "",
-        "name": "Dashboard Style",
+        "name": "Dashboard Styling",
         "order": 0,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    ui-card-panel {\n        border-radius: 20px;\n        height: 600px;\n        margin: 20px;\n        font: \"Trebuchet-Ms\";\n        font-size: 18px;\n    }\n    \n    ui-card-panel * {\n        border-radius: 2.5px;\n        margin: 3px;\n    }\n    \n    .nr-dashboard-cardtitle{\n        font-weight:bold; !important\n    }\n    \n\n</style>",
+        "format": "<style>\n    ui-card-panel {\n        border-radius: 20px;\n        margin-top: 20px;\n    }\n    \n    ui-card-panel * {\n        border-radius: 2.5px;\n        margin: 3px;\n    }\n    \n    .nr-dashboard-cardtitle{\n        font-weight:bold; !important\n    }\n\n    .nr-dashboard-theme .nr-dashboard-button .md-button{\n        border-radius: 5px;\n        color: white;\n        padding:10px;\n    }\n\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "global",
         "className": "",
-        "x": 270,
-        "y": 100,
+        "x": 370,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6a8e7c76571c5b4d",
+        "type": "link in",
+        "z": "c60ec673a66ab45f",
+        "name": "QR Input",
+        "links": [
+            "02c3908f78694640",
+            "f7eead90cee42ead"
+        ],
+        "x": 235,
+        "y": 260,
+        "wires": [
+            [
+                "d4a3acb511ec7bcd"
+            ]
+        ]
+    },
+    {
+        "id": "d4a3acb511ec7bcd",
+        "type": "function",
+        "z": "c60ec673a66ab45f",
+        "name": "Set global variable for scanned QR",
+        "func": "global.set(\"qr_scanned\", msg.payload);\nmsg.payload = global.get(\"qr_scanned\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 260,
         "wires": [
             []
         ]
